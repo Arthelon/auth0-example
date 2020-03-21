@@ -1,0 +1,21 @@
+{
+    "name": "auth0-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-frontend": "cd frontend && HTTPS=true npm start",
+        "start-backend": "cd backend && npm start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Arthelon/auth0-example.git"
+    },
+    "author": "Daniel <hsing.daniel@gmail.com> (http://arthelon.github.io)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Arthelon/auth0-example/issues"
+    },
+    "homepage": "https://github.com/Arthelon/auth0-example#readme"
+}
