@@ -6,7 +6,7 @@ require("dotenv").config();
 const { checkJwt } = require("./utils/auth");
 
 const app = express();
-app.use(cors({ origin: process.env.ALLOWED_ORIGIN }));
+app.use(cors({}));
 
 // Define an endpoint that must be called with an access token
 app.get("/api/external", checkJwt, (req, res) => {

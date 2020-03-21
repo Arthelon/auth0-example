@@ -8,7 +8,7 @@ import history from "./utils/history";
 
 const AUTH0_DOMAIN = process.env.REACT_APP_AUTH0_DOMAIN;
 const AUTH0_CLIENT_ID = process.env.REACT_APP_AUTH0_CLIENT_ID;
-const AUTH0_REDIRECT_URI = process.env.REACT_APP_AUTH0_REDIRECT_URI;
+const AUTH0_REDIRECT_URI = process.env.REACT_APP_BASE_URL;
 const AUTH0_AUDIENCE = process.env.REACT_APP_AUTH0_AUDIENCE;
 
 const onRedirectCallback = appState => {
